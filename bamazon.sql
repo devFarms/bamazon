@@ -91,7 +91,7 @@ INSERT INTO products_tbl(
 	)
 VALUES (
 		"Steampunk Sunglasses Men Retro Round Glasses Eyes Wear"
-	,	"Eyeweat"
+	,	"Eyewear"
 	,	"2.79"
     ,   "2"
 );

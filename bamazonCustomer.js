@@ -19,15 +19,15 @@ function showProducts() {
     connection.query('SELECT * FROM products_tbl;', function(err, res) {
         console.log('\n\nWelcome to Bamazon');
         console.table(res);
+        selectProduct(res);
     });
 };
 
+function selectProduct (){
+    // take in a prompt from user based on the ID and store into a variable
+}
 
-
-// var purchaseItem = function(){
-//     inquirer.prompt({
-//         name:'itemNumber',
-//         type:'input'
-//         message:'Please enter the ID # of the item you would like to purchase.'
-//     })
-// }
+// create function to take in the quantity of items desired and store into a variable
+// then, search table and match ID variable ID
+// then find the number in the stock_qunatity field and subtract the requested quantity in the stored variable
+// write logic to test that if the number in the stock_quantity is less than the requested quantity to return an error else proceed and deduct that number from the stock_quantity using  
