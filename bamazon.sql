@@ -96,7 +96,7 @@ VALUES (
     ,   "2"
 );
 
-/* Skull Pineappe T-Shirt */
+/* Skull Pineapple T-Shirt */
 INSERT INTO products_tbl(
 		product_name
 	,	department_name
@@ -104,7 +104,7 @@ INSERT INTO products_tbl(
     ,   stock_quantity
 	)
 VALUES (
-		"Skull Pineappe T-Shirt"
+		"Skull Pineapple T-Shirt"
 	,	"Clothing"
 	,	"9.99"
     ,   "2"
